@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Poppins:wght@500&family=Raleway&display=swap');
+
+body{
+    background-color: black;
+    color: #6c6868;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 3rem;
+}
+header{
+    text-transform: uppercase;
+    display: flex;
+}
+header h1{
+    font-size: 22px;
+    padding-left: 10px;
+    color: #ffffff;
+}
+header a{
+    font-size: 12px;
+    color: #6c6868;
+    text-decoration: none;
+    padding-left:20px ;
+    padding-right: 20px;
+}
+.notification{
+    background-color: #1e1e1e;
+    font-size: 12px;
+    width: max-content;
+    padding: 8px 15px 8px 1px;
+    border-radius: 20px;
+    margin-left: 10px;
+
+}
+.notification span{
+    background-color:#1ea564;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 4px 10px 4px;
+    margin-right: 5px;
+
+}
+.poster img{
+    margin-top: 0;
+    height: 650px;
+    position: relative;
+    position: fixed;
+    float: right;
+    right:5%;
+}
+.poster-text{
+    background-image: url(./UI\ Assignment/assets/image\ 1.png);
+    background-position: 0%;
+    position:relative;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: 500px;
+    background-position: 80% 45%;
+    height: 600px;
+}
+.poster-text h1{
+    font-size: 10rem;
+    width: 50%;
+    color: #ffffff;
+    margin: 0;
+    line-height: 0.9;
+}
+.poster-text p{
+    margin-top: 10px;
+    font-size: 12px;
+    width: 40%;
+    padding-left: 10px;
+}
+.getstarted-btn{
+    background-color: #1ea564;
+    color: #ffffff;
+    font-size: 12px;
+    min-width: 7rem ;
+    padding: 10px 20px 10px;
+    border-radius:10px ;
+    margin-left: 10px;
+}
+.getstarted-btn:hover{
+    color: #1ea564;
+    border: 1px solid #1ea564;
+    
+    background-color: #ffffff;
+}
+.poster .preview-btn{
+    background-color: #292828;
+    color: #ffffff;
+    font-size: 12px;
+    min-width: 7rem ;
+    margin-left: 20px;
+    padding: 10px 20px 10px;
+    border-radius:10px;
+}
+.poster .preview-btn:hover{
+    color: #1e1e1e;
+    background-color: #ffffff;
+}
+
+.timer-calories {
+    position:absolute;
+    top: 30%;
+    right: 15%;
+    font-size: 18px;
+  }
+.timer-calories .calories{
+    font-size: 10px;
+    background-color: #1e1e1e;
+    text-align: left;
+    padding: 10px 40px 10px 20px;
+    border-radius: 10px;
+    max-width: 200px;
+
+}
+.timer-calories .calories span{
+    font-size: 30px;
+    color:#ae0000;
+    
+}
+.timer-calories .timer{
+    font-size: 10px;
+    background-color: #1e1e1e;
+    text-align: left;
+    padding: 10px 40px 10px 20px;
+    border-radius: 10px;
+    max-width:200px;
+
+}
+.timer-calories .timer span{
+    font-size: 30px;
+    color:#ffff00;
+
+}
+
+.exercies-video h6{
+    font-size: 12px;
+}
+.section-heading{
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.cardd{
+    max-width: 300px;
+    margin-top: 20px;
+}
+.cardd img{
+    width: 300px;
+    height: 180px;
+    border-radius: 10px;
+
+}
+.cardd .video-heading{
+    font-size: 36px;
+    margin-top: -27px;
+    color: #ffffff;
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+.cardd .video-time{
+    font-size: 14px;
+    margin-top: -27px;
+    background-color:black;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 5px 10px 5px;
+
+}
+.video-calories-paragraph{
+    font-size: 12px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.workout-paragraph{
+    background-color: #1e1e1e;
+
+}
+.workout-paragraph p{
+    width: 70%;
+    padding-left: 10px;
+
+}
+.workout-heading{
+    font-size: 4.5rem;
+    color: #ffffff;
+    width: 70%;
+    background-image: url(./UI\ Assignment/assets/patch.png);
+    background-position: 0%;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position:bottom;
+    padding-bottom: 45px;
+}
+.trainer-list img{
+    width: 100%;
+    height:300px;
+    size:  9px;
+
+}
+.trainer-list{
+    flex-direction: row;
+    align-items: flex-end;
+  
+}
+.trainer-list h2{
+    margin: 0;
+    padding-top: 10px;
+    font-size: 20px;
+    color: #ffffff;
+}
+.trainer-list p{
+    font-size: 12px;
+    color: #6c6868;
+
+}
+.task .icon{
+    color: white;
+    font-size: 20px;
+}
+.task .index{
+    font-size: 20px;
+    color: #6c6868;
+}
+.task .subject h2{
+    color: #ffffff;
+    font-size: 26px;
+    margin: 0;
+}
+.task .subject p{
+    font-size: 15px;
+}
+.subject{
+    width: 35%;
+}
+.footerr h2{
+    font-size: 15px;
+    color: #ffffff;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+.footerr h1{
+    font-size: 26px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.footerr .row1{
+    width: 35%;
+}
+.footerr{
+    margin-top: 8rem;
+}
+.workout-paragraph .main{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.workout-paragraph .row2, .workout-paragraph .row1{
+    width: 100%;
+}
+
+@media( max-width:1206px){
+    .timer-calories{
+        display: none;
+    }
+}
+@media( max-width:776px){
+    .container{
+        max-width: max-content;
+    }
+    .poster-text h1{
+        font-size: 4rem;
+
+    }
+    header {
+        margin-left: 12px !important;
+        
+    }
+    .poster-text{
+        background-position:70px 10% !important;
+    }
+}
+@media( max-width:588px){
+    .workout-paragraph .main{
+        display: block !important;
+    }
+    .trainer-list{
+        display:  block !important;
+    }
+    .footerr{
+        display: block !important;
+    }
+    .footerr .row1{
+        width: 70% !important;
+    }
+    .workout-heading{
+        font-size:3.5rem !important;
+        background-size: 200px !important;
+        width: 100%;
+    }
+
+}
